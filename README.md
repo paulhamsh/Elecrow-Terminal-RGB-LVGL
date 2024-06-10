@@ -7,7 +7,7 @@ A lovely ESP32 S3 board.
 https://www.elecrow.com/esp-terminal-with-esp32-3-5-inch-parallel-480x320-tft-capacitive-touch-display-rgb-by-chip-ili9488.html   
 
 <p align="center">
-  <img src="https://github.com/paulhamsh/Elecrow-Terminal-RGB-LVGL/blob/main/Elecrow%20Terminal.jpg" width="700" title="FS7">
+  <img src="https://github.com/paulhamsh/Elecrow-Terminal-RGB-LVGL/blob/main/Elecrow%20Terminal.jpg" width="400" title="Elecrow Terminal">
 </p>
 
 ## Build LVGL demos with v8.4.0    
