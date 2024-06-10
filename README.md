@@ -55,16 +55,6 @@ Edit
 #define LV_USE_DEMO_WIDGETS 1
 #define LV_FONT_MONTSERRAT_24 1
 ```
-
-Edit your program
-```
-void my_disp_flush( lv_disp_drv_t *disp, const lv_area_t *area, lv_color_t *color_p )
-  //tft.startWrite();
-  //tft.setAddrWindow( area->x1, area->y1, w, h );
-  //tft.writePixels((lgfx::rgb565_t *)&color_p->full, w * h);
-  //tft.endWrite();
-
-  lv_draw_sw_rgb565_swap(px_map, w * h);
-  tft.pushImage(area->x1, area->y1, w, h, (uint16_t *)px_map);
+Use the LGVL_V9_RGB.ino above   
   
 ```
