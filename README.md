@@ -34,3 +34,16 @@ Edit this line:
 Copy folders ```Arduino\libraries\lvgl\demos``` and ```Arduino\libraries\lvgl\examples```  to ```lvgl\src```   
 
 Also: hold down the Boot button and press the RESET button to initiate firmware download mode   
+
+## Build LVGL demos with v9.1.0
+
+Board manager: ESP32 S3 Dev Module   
+esp32 version 2.0.16   
+Arduino IDE:   2.3.2   
+
+Install Arduino libraries:
+```
+  lvgl           version 9.1.0
+  LoyvyanGFX     version 1.1.16
+```
+
