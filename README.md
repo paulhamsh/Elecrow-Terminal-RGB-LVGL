@@ -17,7 +17,7 @@ Board manager: ESP32 S3 Dev Module
 Install Arduino librabry lvgl version 8.4.0   
 Get the Soruce Code.zip file from here: https://www.elecrow.com/download/product/DLC35010R/Source_Code.zip   
 
-Make a folder and copy over ```ESP Terminal 3.5inch RGB code\LVGL_RGB_``` into it   
+Make a folder and copy over ```"ESP Terminal 3.5inch RGB code\LVGL_RGB_"``` into it   
 Rename the ```LVGL_RGB_``` folder and the ```LVGL_RGB_.ino``` files to something more meaningful   
 
 Copy the lv_conf.h from ```Source Code\Libraries\lvgl.h``` to ```Arduino\libraries\lvgl\src```   
