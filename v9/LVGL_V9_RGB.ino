@@ -115,11 +115,6 @@ void my_disp_flush(lv_display_t *disp, const lv_area_t *area, uint8_t *px_map)
   uint32_t w = ( area->x2 - area->x1 + 1 );
   uint32_t h = ( area->y2 - area->y1 + 1 );
 
-  //v8 tft.startWrite();
-  //v8 tft.setAddrWindow( area->x1, area->y1, w, h );
-  //v8 tft.writePixels((lgfx::rgb565_t *)&color_p->full, w * h);
-  //v8 tft.endWrite();
-
   lv_draw_sw_rgb565_swap(px_map, w * h);
   tft.pushImage(area->x1, area->y1, w, h, (uint16_t *)px_map);
 
@@ -192,11 +187,7 @@ void setup()
   lv_indev_set_type(indev, LV_INDEV_TYPE_POINTER);
   lv_indev_set_read_cb(indev, my_touchpad_read);
 
-//#if 0
-//  lv_example_get_started_4();
-//#else
   lv_demo_widgets();   
-//#endif
 
   Serial.println( "Setup done" );
 }
