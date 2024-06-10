@@ -14,7 +14,11 @@ https://www.elecrow.com/esp-terminal-with-esp32-3-5-inch-parallel-480x320-tft-ca
 
 Board manager: ESP32 S3 Dev Module   
 
-Install Arduino librabry lvgl version 8.4.0   
+Install Arduino libraries:
+```
+  lvgl           version 8.4.0
+  Loyvyan GFX    version 1.1.16
+```
 Get the Soruce Code.zip file from here: https://www.elecrow.com/download/product/DLC35010R/Source_Code.zip   
 
 Make a folder and copy over ```"ESP Terminal 3.5inch RGB code\LVGL_RGB_"``` into it   
