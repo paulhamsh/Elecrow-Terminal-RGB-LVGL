@@ -12,12 +12,14 @@ https://www.elecrow.com/esp-terminal-with-esp32-3-5-inch-parallel-480x320-tft-ca
 
 ## Build LVGL demos with v8.4.0    
 
-Board manager: ESP32 S3 Dev Module   
+Board manager: ESP32 S3 Dev Module
+esp32 version 2.0.16
+Arduino IDE:   2.3.2
 
 Install Arduino libraries:
 ```
   lvgl           version 8.4.0
-  Loyvyan GFX    version 1.1.16
+  LoyvyanGFX     version 1.1.16
 ```
 Get the Soruce Code.zip file from here: https://www.elecrow.com/download/product/DLC35010R/Source_Code.zip   
 
