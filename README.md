@@ -47,3 +47,10 @@ Install Arduino libraries:
   LoyvyanGFX     version 1.1.16
 ```
 
+Copy ```Arduino\libraries\lvgl\lv_conf_template.h``` to ```src\lv_conf.h```   
+Copy folders ```Arduino\libraries\lvgl\demos``` and ```Arduino\libraries\lvgl\examples```  to ```lvgl\src```     
+Edit
+```
+#if 1 /*Set it to "1" to enable content*/
+
+
