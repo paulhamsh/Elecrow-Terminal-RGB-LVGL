@@ -52,5 +52,7 @@ Copy folders ```Arduino\libraries\lvgl\demos``` and ```Arduino\libraries\lvgl\ex
 Edit
 ```
 #if 1 /*Set it to "1" to enable content*/
+#define LV_USE_DEMO_WIDGETS 1
+#define LV_FONT_MONTSERRAT_24 1
 
 
