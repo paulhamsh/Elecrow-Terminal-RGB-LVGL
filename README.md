@@ -35,6 +35,8 @@ Copy folders ```Arduino\libraries\lvgl\demos``` and ```Arduino\libraries\lvgl\ex
 
 Also: hold down the Boot button and press the RESET button to initiate firmware download mode   
 
+There is a pre-build lv_conf.h in the v8 folder.   
+
 ## Build LVGL demos with v9.1.0
 
 Board manager: ESP32 S3 Dev Module   
@@ -55,6 +57,6 @@ Edit
 #define LV_USE_DEMO_WIDGETS 1
 #define LV_FONT_MONTSERRAT_24 1
 ```
-Use the LGVL_V9_RGB.ino above   
-  
-```
+Use the LGVL_V9_RGB.ino in the v9 folder       
+There is a pre-build lv_conf.h in the v9 folder.   
+
