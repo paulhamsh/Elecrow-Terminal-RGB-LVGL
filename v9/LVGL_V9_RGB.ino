@@ -104,7 +104,7 @@ LGFX tft;
 static const uint16_t screenWidth  = 480;
 static const uint16_t screenHeight = 320;
 static const int buf_size = screenWidth * screenHeight * sizeof(lv_color_t) / 10;
-static uint16_t buf[buf_size];
+static uint16_t buf[buf_size / 2];
 
 lv_display_t *disp;
 lv_indev_t   *indev;
